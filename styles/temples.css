@@ -1,0 +1,153 @@
+
+:root {
+    --primary-color: #51543B;
+    --secondary-color: #F7F4E9;
+    --accent1-color: #964B00;
+    --accent2-color: #FFC499;
+    --heading-font: "Montserrat", "sans-serif";
+    --text-font: "Montserrat", "sans-serif";
+    --text-color: #333333;
+}
+
+main {
+   max-width: 1274px;
+   margin: auto;
+
+}
+
+/* Header styles */
+
+#theader {
+    width: 50%;
+    font-weight: 100;
+    font-size: 36px;
+    color: white;
+    text-align: left;
+    padding: 1.5rem;
+}
+h1 {
+    font-weight: 100;
+    color: black;
+    text-align: center;
+    align-content: center;
+
+}
+
+
+.header-container {
+    display: flex;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    justify-content: space-between;
+    text-align: center;
+}
+
+
+/* Navigation styles */
+
+.header-container nav {
+    display: grid;
+    background-color: var(--accent1-color);
+    width: 200px;
+    height: 300px;
+    text-align: center;
+    padding-top: 17px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    
+    
+}
+
+.header-container a {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 12px;
+    text-decoration: none;
+        font-size: 1.2rem;
+    
+}
+
+
+/* Figure styles */
+
+.fig-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0;
+    margin: 0.01rem;
+}
+
+.figure {
+    padding: 0;
+    margin: 0;
+    width: auto;
+}
+
+figcaption {
+    margin-top: 3px;
+    text-align: center;
+    align-content: center;
+    color: black;
+}
+
+
+/* Footer styles */
+
+footer {
+    background-color: var(--primary-color);
+    color: #FFFFFF;
+    text-align: center;
+    padding: 1rem;
+}
+
+#year {
+    color: white;
+}
+
+/* Mobile navigation styles */
+
+#navmenu {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    padding-top: 40px;
+    width: 200px;
+
+}
+
+
+#navmenu a {
+    
+    display: block;
+    padding: 10px; 
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+
+}
+
+#navmenu.show {
+    display: flex;
+    
+}
+
+
+
+#navmenu a:hover {
+    background-color: #ccc;
+}
+.close-menu {
+    display: block;
+    position:absolute;
+    top: 0;
+    right: 5px;
+    font-size: 40px;
+    cursor: pointer;
+    color: black;
+    padding: 10px;
+    z-index: 1;
+    
+}
