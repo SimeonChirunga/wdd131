@@ -5,10 +5,13 @@
 --background-color: #FFFFFF;
 --text-color: #000000;
 --accent-color: #FFCC00;
---poppins-regular: 'Poppins', sans-serif;
+--font-regular: 'Ubuntu', sans-serif;
+
 
    
 }
+
+
 
 * {
     margin: 0;
@@ -16,8 +19,9 @@
 }
 
 body {
-    font-family: var(--poppins-regular);
+    font-family: ub;
     box-sizing: border-box;
+    font-style: var(--font-regular);
 }
 
 h1 {
@@ -77,8 +81,7 @@ header {
 .hero img {
     width: 100%;
     height: auto;
-    mask-image: linear-gradient(#67171Fff 95%,
-    transparent);
+   
 }
 
 .data,
