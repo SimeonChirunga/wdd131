@@ -47,6 +47,7 @@ main {
 
 .review-form label {
     font-weight: bold;
+    padding: 10px;
 }
 
 input[type="radio"] {
@@ -107,6 +108,7 @@ fieldset span {
 
 .optional {
     font-weight: normal;
+    padding: 10px;
     font-size: 0.8em;
     color: blue;
 }
