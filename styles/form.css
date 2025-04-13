@@ -1,6 +1,6 @@
 .montserrat {
     font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
+
     font-weight: weight;
     font-style: normal;
 }
@@ -133,7 +133,7 @@ button {
 }
 
 .review-count {
-    
+
     padding: 1em;
     max-width: 100%;
 }
