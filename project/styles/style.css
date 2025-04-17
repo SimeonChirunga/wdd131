@@ -435,4 +435,10 @@
       font-size: 1.125rem;
     }
   }
+
+  .btn--secondary {
+    background: transparent;
+    border: 2px solid #004080;
+    color: #004080;
+}
   
